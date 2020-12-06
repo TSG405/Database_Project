@@ -1,0 +1,89 @@
++ Python IDLE, Pycharm, Visual Studio (Any Python IDE / Interpreter)  [v 3.0+]  .To check installed - Python version, use command line terminal:   $ python --version 
++ SQLITE3 module installed in the IDE.
+
+  $ pip install db-sqlite3
+  
+             OR
+             
+  $ virtualenv sqlex 
+  $ source sqlex/bin/activate 
+  $ cd sqlex 
+  $ pip install pysqlite 
+  
+
+For Windows and other OS:--------------
+Follow these steps, mentioned below:
+
+
+#####
+To download SQLite manually, open the Download page of the SQlite official website..
+
+First, go to the -- " https://www.sqlite.org " website.
+Second, open the download page -- " https://www.sqlite.org/download.html "
+SQLite provides various tools for working across platforms e.g., Windows, Linux, and Mac. You need to select an appropriate version to download.
+
+Eg. For Windows, download the folder like: "sqlite-tools-win32-x86-329000.zip(1.71 MiB)". The downloaded file is in the ZIP format and its size is quite small.
+
+
+##### Run SQLite tools...
+
+Installing SQLite is simple and straightforward !!
+
+First, create a new folder e.g.,          $ C:\sqlite
+Second, extract the content of the file that you downloaded in the previous section to the C:\sqlite folder. You should see three programs in the C:\sqlite folder. 
+
+* First, open the command line window and navigate to the C:\sqlite folder.
+
+  C:\cd c:\sqlite
+  C:\sqlite>
+  
+* Second, type sqlite3 and press Enter <--, you should see the following output:
+
+  C:\sqlite>sqlite3
+  SQLite version 3.29.0 2019-07-10 17:32:03
+  Enter ".help" for usage hints.
+  Connected to a transient in-memory database.
+  Use ".open FILENAME" to reopen on a persistent database.
+  sqlite>
+  
+* Third, you can type the ".help" command from the sqlite> prompt, to see all available commands in sqlite3.
+
+  sqlite> .help
+  .archive ...           Manage SQL archives: ".archive --help" for details
+  .auth ON|OFF           Show authorizer callbacks
+  .backup ?DB? FILE      Backup DB (default "main") to FILE
+  .bail on|off           Stop after hitting an error.  Default OFF
+  .binary on|off         Turn binary output on or off.  Default OFF
+  .cd DIRECTORY          Change the working directory to DIRECTORY
+  ...
+  
+* Fourth, to quit the sqlite>, you use  .quit command as follows:
+
+  sqlite> .quit
+  c:\sqlite>
+  
+
+[OPTIONAL] #####
+
+Install SQLite GUI tool
+The sqlite3 shell is no-doubt excellent and easy to use!
+
+However, sometimes, you may want to work with the SQLite databases using an intuitive GUI tool.
+
+There are many GUI tools for managing SQLite databases available ranging from freeware to commercial licenses.
+SQLiteStudio
+The SQLiteStudio tool is a free GUI tool for managing SQLite databases. It is free, portable, intuitive, and cross-platform. SQLite tool also provides some of the most important features to work with SQLite databases such as importing, exporting data in various formats including CSV, XML, and JSON.
+
+You can download the SQLiteStudio installer or its portable version by visiting the download page.  Then, you can extract (or install) the download file to a folder e.g., C:\sqlite\gui\ and launch it.
+
+
+##### Other SQLite GUI tools...........
+
+Besides the SQLite Studio, you can use the following free SQLite GUI tools:
+
+  * DBeaver is another free multi-platform database tool. It supports all popular major relational database systems MySQL, PostgreSQL, Oracle, DB2, SQL Server, Sybase.. including SQLite.
+  * DB Browser for SQLite – is an open-source tool to manage database files compatible with SQLite.
+
+
+Now, you should be ready to work with SQLite!
+@TSG405
