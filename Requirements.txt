@@ -1,6 +1,9 @@
 + Python IDLE, Pycharm, Visual Studio (Any Python IDE / Interpreter)  [v 3.0+]  .To check installed - Python version, use command line terminal:   $ python --version 
 + SQLITE3 module installed in the IDE.
++ Py-Tkinter module
 
+
+>> SQLite3 for Python-3  
   $ pip install db-sqlite3
   
              OR
@@ -10,9 +13,16 @@
   $ cd sqlex 
   $ pip install pysqlite 
   
+  
+>> Tkinter for Python-3  
+  $ pip install tk
+            OR
+  $ sudo apt-get install python3-tk
+  
 
 For Windows and other OS:--------------
 Follow these steps, mentioned below:
+
 
 
 #####
@@ -23,6 +33,7 @@ Second, open the download page -- " https://www.sqlite.org/download.html "
 SQLite provides various tools for working across platforms e.g., Windows, Linux, and Mac. You need to select an appropriate version to download.
 
 Eg. For Windows, download the folder like: "sqlite-tools-win32-x86-329000.zip(1.71 MiB)". The downloaded file is in the ZIP format and its size is quite small.
+
 
 
 ##### Run SQLite tools...
@@ -63,6 +74,7 @@ Second, extract the content of the file that you downloaded in the previous sect
   c:\sqlite>
   
 
+
 [OPTIONAL] #####
 
 Install SQLite GUI tool
@@ -77,6 +89,7 @@ The SQLiteStudio tool is a free GUI tool for managing SQLite databases. It is fr
 You can download the SQLiteStudio installer or its portable version by visiting the download page.  Then, you can extract (or install) the download file to a folder e.g., C:\sqlite\gui\ and launch it.
 
 
+
 ##### Other SQLite GUI tools...........
 
 Besides the SQLite Studio, you can use the following free SQLite GUI tools:
@@ -86,4 +99,10 @@ Besides the SQLite Studio, you can use the following free SQLite GUI tools:
 
 
 Now, you should be ready to work with SQLite!
+
+
+For downloading Tkinter related issues:
+VISIT HERE >>  `https://tkdocs.com/tutorial/install.html`
+
+
 @TSG405
