@@ -5,4 +5,10 @@ Contains files, required to project a query and maintain Database using PYTHON a
   <img src="https://github.com/TSG405/Database_Project/blob/main/main/Screenshot%202%20.png" alt="Here goes the screenshot 2">
 </h6>
 
+#### Py-Tkinter Visualization
+<h5 align="center">
+  <img src="https://github.com/TSG405/Database_Project/blob/main/main/Screenshot%20GUI.png" alt="Here goes the screenshot 3">
+</h5>
+
+
 ### @ TSG405
